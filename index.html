@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<button id="start-btn">Start Quiz</button>
+	<div id="timer">Time: <span id="time-remaining"></span></div>
+
+	<head>
+		<title> Multiple Choice Quiz App</title>
+		<link rel="Stylesheet" href="./assets/css/style.css">
+	</head>
+	<body>
+		<div id="container>">
+					<header>
+					<h1>Multiple Choice Quiz App</h1>
+					<p>Please Answer 5 Questions</p>
+					</header>
+				<section>
+					<div id="result"></div>
+					<form name="quizForm" onsubmit="return verifyResponses()">
+						<h3>1. CSS stands for: </h3>
+							<input type="radio" name="p1" value = "a">a.Cascade style sheets <br/>
+							<input type="radio" name="p1" value = "b">b.Color and style sheets <br/> 
+							<input type="radio" name="p1" value = "c">c.Cascading style sheets<br/> 
+							<input type="radio" name="p1" value = "d">d.None of the above<br/>
+
+						<h3>2. The property in CSS used to change the background color of an element is </h3>
+							<input type="radio" name="p2" value = "a">a.bgcolor<br/>
+							<input type="radio" name="p2" value = "b">b.Color <br/> 
+							<input type="radio" name="p2" value = "c">c.background-color<br/> 
+							<input type="radio" name="p2" value = "d">d.All of the above<br/>
+
+						<h3>3. The property in CSS used to change the text color of an element is: </h3>
+							<input type="radio" name="p3" value = "a">a.bgcolor<br/>
+							<input type="radio" name="p3" value = "b">b.Color <br/> 
+							<input type="radio" name="p3" value = "c">c.background-color<br/> 
+							<input type="radio" name="p3" value = "d">d.All of the above<br/>
+
+						<h3>4. The CSS property used to control the element's font-size is: </h3>
+							<input type="radio" name="p4" value = "a">a.text-style<br/>
+							<input type="radio" name="p4" value = "b">b.text-size<br/> 
+							<input type="radio" name="p4" value = "c">c.font-size<br/> 
+							<input type="radio" name="p4" value = "d">d.None of the above<br/>
+
+						<h3>5. The HTML attribute used to define the inline styles is: </h3>
+							<input type="radio" name="p5" value = "a">a.style<br/>
+							<input type="radio" name="p5" value = "b">b.styles<br/> 
+							<input type="radio" name="p5" value = "c">c.class<br/> 
+							<input type="radio" name="p5" value = "d">d.None of the above<br/>
+							
+						
+							<input type="Submit" value="Send">
+					</form>
+				</section>
+		<div>
+		<script src="./assets/js/script.js"></script>
+	</body>
+</html>
